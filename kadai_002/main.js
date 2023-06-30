@@ -91,6 +91,7 @@ const rankCheck = score => {
 
 // ゲーム終了
 const gameOver = (id) => {
+    //タイムアップ表示
     untypedfield.textContent = '';
     typedfield.textContent = '';
     timeup.style.display = 'inline';
